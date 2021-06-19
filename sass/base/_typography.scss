@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  & h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  & ul {
+    font-size: 1.6rem;
+    list-style-type: none;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $color-text;
+  }
+
+  & h1,
+  & li {
+    padding: 1.25rem 3.5rem;
+  }
+}
+
+#main-doc {
+  color: $color-text;
+}
+
+.main-section {
+  & h1 {
+    font-size: 2.8rem;
+    text-align: left;
+    color: $color-text-headings;
+    margin-bottom: 3rem;
+  }
+
+  & p {
+    font-size: 1.6rem;
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  & .list ul {
+    font-size: 1.6rem;
+    display: list-item;
+    list-style-type: disc;
+  }
+
+  & li {
+    margin-bottom: 2rem;
+  }
+
+  & .list {
+    padding-left: 9rem;
+  }
+
+  & .list--open-circle ul {
+    font-size: 1.6rem;
+    display: list-item;
+    list-style-type: circle;
+    padding-left: 15rem;
+  }
+
+  & code {
+    background-color: $color-code-background;
+    display: block;
+    font-size: 1.2rem;
+    padding: 3rem 1rem 3rem 1rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    line-height: 2.1;
+  }
+}
