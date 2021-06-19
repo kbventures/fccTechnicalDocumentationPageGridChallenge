@@ -13,31 +13,30 @@
     <nav id="navbar" class="navigation">
       <header>
         <h1>JS Documentation</h1>
-        <ul>
-          <li><a href="#" class="nav-link">Introduction</a></li>
-          <li><a href="#" class="nav-link">What you should already know</a></li>
-          <li><a href="#" class="nav-link">JavasScript and Java</a></li>
-          <li><a href="#" class="nav-link">Hello World</a></li>
-          <li><a href="#" class="nav-link">Varibles</a></li>
-          <li><a href="#" class="nav-link">Declaring variables</a></li>
-          <li><a href="#" class="nav-link">Variable Scope</a></li>
-          <li><a href="#" class="nav-link">Global Variables</a></li>
-          <li><a href="#" class="nav-link">Constants</a></li>
-          <li><a href="#" class="nav-link">Data types</a></li>
-          <li><a href="#" class="nav-link">if...else statement</a></li>
-          <li><a href="#" class="nav-link">while statement</a></li>
-          <li><a href="#" class="nav-link">Function declarations</a></li>
-          <li><a href="#" class="nav-link">Reference</a></li>
-        </ul>
       </header>
+        <ul>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+          <li><a href="#JavaScript_And_Java" class="nav-link">JavaScript And Java</a></li>
+          <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+          <li><a href="#Variables" class="nav-link">Variables</a></li>
+          <li><a href="#Declaring_Variables" class="nav-link">Declaring Variables</a></li>
+          <li><a href="#Variable_Scope" class="nav-link">Variable Scope</a></li>
+          <li><a href="#Global_Variables" class="nav-link">Global Variables</a></li>
+          <li><a href="#Constants" class="nav-link">Constants</a></li>
+          <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+          <li><a href="#if...else_statement" class="nav-link">if...else statement</a></li>
+          <li><a href="#While_Statement" class="nav-link">While Statement</a></li>
+          <li><a href="#Function_Declarations" class="nav-link">Function Declarations</a></li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
+ 
     </nav>
 
     <!-- Main Section -->
     <main id="main-doc">
-      <section class="main-section">
-        <header>
-          <h1>Introduction</h1>
-        </header>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
         <p>
           JavaScript is a cross-platform, object-oriented scripting language. It
           is a small and lightweight language. Inside a host environment (for
@@ -73,10 +72,8 @@
         </div>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>What you should already know</h1>
-        </header>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
         <p>This guide assumes you have the following basic background:</p>
         <div class="list">
           <ul>
@@ -93,10 +90,8 @@
         </div>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>JavaScript and Java</h1>
-        </header>
+      <section class="main-section" id="JavaScript_And_Java">
+        <header>JavaScript And Java</header>
         <p>
           JavaScript and Java are similar in some ways but fundamentally
           different in some others. The JavaScript language resembles Java but
@@ -125,10 +120,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Hello World</h1>
-        </header>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
         <p>
           To get started with writing JavaScript, open the Scratchpad and write
           your first "Hello world" JavaScript code:
@@ -145,10 +138,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Variables</h1>
-        </header>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
         <p>
           You use variables as symbolic names for values in your application.
           The names of variables, called identifiers, conform to certain rules.
@@ -168,10 +159,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Declaring variables</h1>
-        </header>
+      <section class="main-section" id="Declaring_Variables">
+        <header>Declaring Variables</header>
         <p>You can declare a variable in three ways:</p>
         <p>With the keyword var. For example,</p>
 
@@ -192,10 +181,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Variable scope</h1>
-        </header>
+      <section class="main-section" id="Variable_Scope">
+        <header>Variable Scope</header>
         <p>
           When you declare a variable outside of any function, it is called a
           global variable, because it is available to any other code in the
@@ -223,10 +210,8 @@
         </code>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Global variables</h1>
-        </header>
+      <section class="main-section" id="Global_Variables">
+        <header>Global Variables</header>
         <p>
           Global variables are in fact properties of the global object. In web
           pages the global object is window, so you can set and access global
@@ -241,10 +226,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Constants</h1>
-        </header>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
         <p>
           You can create a read-only, named constant with the const keyword. The
           syntax of a constant identifier is the same as for a variable
@@ -285,10 +268,8 @@
         >
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Data types</h1>
-        </header>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
         <p>The latest ECMAScript standard defines seven data types:</p>
 
         <div class="list">
@@ -339,10 +320,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>if...else statement</h1>
-        </header>
+      <section class="main-section" id="if...else_statement">
+        <header>if...else statement</header>
         <p>
           Use the if statement to execute a statement if a logical condition is
           true. Use the optional else clause to execute a statement if the
@@ -395,10 +374,8 @@
         <code>if ((x = y)) { /* statements here */ }</code>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>while statement</h1>
-        </header>
+      <section class="main-section" id="While_Statement">
+        <header>While Statement</header>
         <p>
           A while statement executes its statements as long as a specified
           condition evaluates to true. A while statement looks as follows:
@@ -441,10 +418,8 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Function declarations</h1>
-        </header>
+      <section class="main-section" id="Function_Declarations">
+        <header>Function Declarations</header>
 
         <p>
           A function definition (also called a function declaration, or function
@@ -483,18 +458,17 @@
         </p>
       </section>
 
-      <section class="main-section">
-        <header>
-          <h1>Reference</h1>
-        </header>
+      <section class="main-section" id="Reference">
+        <header id="Reference">Reference</header>
         <div class="list">
         <ul>
           <li>All the documentation in this page is taken from   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a</li>
         </ul>
       </div>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a>
+    
       </section>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
+s
